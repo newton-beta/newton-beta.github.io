@@ -1162,7 +1162,8 @@
     <div class="row">
       <div class="col-12 col-md-8 mx-auto">
         <!--Contact Form-->
-        <form action="" class="contact-form p-md-5">
+        
+        <form onsubmit="return false"  action="" class="contact-form p-md-5">
           <div class="row">
             <div class="col-12 col-md-6">
               <!--Input-->
@@ -1208,9 +1209,10 @@
           <!--End Textarea-->
 
           <!--Submit Button-->
-          <button class="btn btn-primary btn-xl w-100">Send Massages</button>
+          <button  id="sendDataToMailChimp" class="btn btn-primary btn-xl w-100">Send Massages</button>
           <!--End Submit Button -->
         </form>
+        <script src="js/mailChimp.js"></script>
         <!--End Form-->
       </div>
     </div>
