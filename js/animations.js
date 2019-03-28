@@ -3,7 +3,7 @@ var background = {}
 background.initializr = function (){
   
   var $this = this; 
-  console.log('initializr');
+  
    
 
  
@@ -62,7 +62,7 @@ background.initializr = function (){
      $this.generate_bubbles();
    })
 
-   console.log(res);
+   
      
   }
 
